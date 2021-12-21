@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('homepage.index');
-});
+Route::get('/comics', function () {
+
+    return view('comics.index');
+})->name("comics.index");
+Route::get('/comics/{id}', function ($id) {
+
+    return view('comics.detail', ["id" => $id]);
+})->name("comics.detail");
