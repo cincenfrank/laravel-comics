@@ -1,0 +1,16 @@
+footer {
+    .links-block {
+        background-image: url("/img/footer-bg.jpg");
+    }
+    .social-block {
+        background-color: black;
+        .social-block-content {
+            display: flex;
+            justify-content: space-between;
+            .social-list {
+                list-style: none;
+                display: flex;
+            }
+        }
+    }
+}

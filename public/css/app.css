@@ -1,0 +1,27 @@
+header .top-line {
+  background-color: blue;
+}
+
+header .jumbotron {
+  height: 500px;
+  background-image: url("/img/jumbotron.jpg");
+}
+
+footer .links-block {
+  background-image: url("/img/footer-bg.jpg");
+}
+
+footer .social-block {
+  background-color: black;
+}
+
+footer .social-block .social-block-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .social-block .social-block-content .social-list {
+  list-style: none;
+  display: flex;
+}
+
