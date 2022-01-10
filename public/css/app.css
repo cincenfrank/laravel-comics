@@ -2,8 +2,53 @@ header .top-line {
   background-color: blue;
 }
 
+header .navbar {
+  padding: 0 !important;
+}
+
+header .navbar > .container {
+  align-items: stretch;
+}
+
+header .navbar .navbar-logo-img {
+  width: 80px;
+}
+
+header .navbar .nav-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+}
+
+header .navbar .nav-item.active {
+  border-bottom: 6px solid blue;
+}
+
+header .navbar .nav-item .nav-link {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+header .navbar .search-container {
+  border-bottom: 2px solid blue;
+}
+
+header .navbar .search-container .search-box {
+  border: none;
+  background-color: transparent;
+  text-align: right;
+}
+
+header .navbar .search-container .search-box:focus-visible {
+  border: none !important;
+}
+
 header .jumbotron {
   height: 500px;
+  background-size: cover;
   background-image: url("/img/jumbotron.jpg");
 }
 
